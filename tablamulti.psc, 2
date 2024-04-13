@@ -1,0 +1,14 @@
+Proceso tablamulti
+	definir tabla, resultado, hastaNumero Como Entero;
+	//definimos las variables//
+	Escribir "ingrese la tabla que quiere multiplicar";
+	leer tabla;
+	Escribir "hasta que numero quiere multiplicar";
+	leer hastanumero;
+	//ingresamos el texto que vera el usuario para que en (leer) pseint lo identifique )
+	Para tabla <- 1 Hasta hastaNumero Con Paso 1 Hacer
+		resultado <- tabla * hastaNumero;
+		Escribir tabla, "x", hastaNumero, "=", resultado;
+		//se ingreso la operacion que necesitamos que se realice con los datos que el usuario ingresara,  y entregar la op resuelta al usuario//
+	FinPara
+FinProceso

@@ -1,0 +1,18 @@
+algoritmo calculopromedio
+	definir calificacion1, calificacion2, calificacion3, promedio Como real; 
+	//aqui hemos definido las variables a identificar// 
+	Escribir "ingrese la primera calificacion del examen";
+	leer calificacion1; Escribir "ingrese la segunda calificacion del examen"; 
+	leer calificacion2; Escribir "ingrese la tercera calificacion del examen"; 
+	leer calificacion3;
+	// "escribir": le solicitamos al usuario que ingrese los datos y el comando "leer" que pseint los identifique// 
+	promedio<- (calificacion1+calificacion2+calificacion3)/3; 
+	//aqui hemos ingresado la operacion a realizar con los datos que el usuario ingrese//
+	Escribir " el promedio de las calificaciones es ", promedio;
+	si promedio>= 4 Entonces 
+		Escribir "felicitaciones! ha aprobado";
+	sino; Escribir "lamentablemente ha reprobado"; 
+		//luego recibir y realizar la operacion hemos ingresado la condicion "si, no" definiendo (nota minima y maxima) para informar al usuario si esta aprobado o no)//
+	FinSi
+FinAlgoritmo
+
